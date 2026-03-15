@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Sehat Bersama</title>
+<link rel="stylesheet" href="ai.css">
+</head>
+
+<body>
+
+<header>
+<h1 id="judul">Website Kesehatan</h1>
+<p>Tips hidup sehat setiap hari</p>
+</header>
+
+<section class="card">
+<h2>Minum Air</h2>
+<p>Minumlah minimal 8 gelas air setiap hari.</p>
+<button onclick="infoAir()">Info</button>
+</section>
+
+<section class="card">
+<h2>Olahraga</h2>
+<p>Lakukan olahraga minimal 30 menit sehari.</p>
+<button onclick="infoOlahraga()">Info</button>
+</section>
+
+<button class="mode" onclick="ubahWarna()">Mode Sehat</button>
+<br>
+<input type="number" id="berat" placeholder="Berat badan (kg)"><br><br>
+<input type="number" id="tinggi" placeholder="Tinggi badan (cm)"><br>
+<br><button onclick="hitungBMI()">Hitung BMI</button>
+
+<p id="hasil"></p>
+
+<script>
+function hitungBMI()
+let berat = document.getElementById("berat").value;
+let tinggi = document.getElementById("tinggi").value / 100;
+
+let bmi = berat / (tinggi * tinggi);
+
+document.getElementById("hasil").innerText = "BMI kamu: " + bmi.toFixed(2);
+}
+</script>
+
+<script src="belajar js.js"></script>
+
+</body>
+</html>
