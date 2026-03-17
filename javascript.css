@@ -39,6 +39,15 @@ button {
   background: black;
   color: white;
 }
+
+form {
+  background:linear-gradient(#32a895,blue) ;
+  padding: 30px;
+  border-radius: 20px;
+  justify-content: center;
+  display: inline-block;
+}
+
 button:hover{
   background: #1f30b5;
   transition:0.3;
