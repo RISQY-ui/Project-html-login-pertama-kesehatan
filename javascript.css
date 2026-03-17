@@ -2,11 +2,32 @@ body{
   text-align: center;
   background: greenyellow;
   padding: 100px;
-  font-family: arom;
+  font-family: Arial, sans-serif;
   border-radius: 100px;
-  }
+    }
   
 footer{
-  margin: 20px;
+  margin: 20px; 
   font-size: 10px;
+  
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: black;
+  color: white;
 }
