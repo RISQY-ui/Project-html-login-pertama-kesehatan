@@ -4,9 +4,13 @@ body{
   padding: 100px;
   font-family: Arial, sans-serif;
   border-radius: 100px;
-    }
+}
 
 h1{
+  color: white;
+}
+
+p{
   color: white;
 }
    
