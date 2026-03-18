@@ -32,8 +32,8 @@ button {
 }
 
 form {
-  background: white;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  background: #1863cc;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
   padding: 30px;
   border-radius: 20px;
   justify-content: center;
