@@ -3,7 +3,8 @@ body{
   padding: 100px;
   font-family: Arial, sans-serif;
   border-radius: 100px;
-  background: greenyellow;
+  background: linear-gradient(135deg, #7f00ff, blue);
+  
 
 }
   
@@ -32,7 +33,7 @@ button {
 }
 
 form {
-  background:linear-gridient(blue,White);
+  background: linear-gradient(135deg, #7f00ff, #e100ff);
   box-shadow: 0 10px 25px rgba(0,0,0,0.3);
   padding: 30px;
   border-radius: 20px;
