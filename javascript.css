@@ -1,22 +1,15 @@
 body{
   text-align: center;
-  background: leargardient(greenyellow,blue);
   padding: 100px;
   font-family: Arial, sans-serif;
   border-radius: 100px;
-}
+  background: linear-gradient(135deg, #7f00ff, #e100ff)
 
-h2 {
-  color: purple;
 }
-
-h3 {
-  color: purple;
-}
-   
+  
 footer{
-margin: 20px; 
-font-size: 10px;
+  margin: 20px; 
+  font-size: 10px;
   
 }
 
@@ -36,8 +29,6 @@ button {
   padding: 10px 20px;
   border: none;
   border-radius: 8px;
-  background: black;
-  color: white;
 }
 
 form {
@@ -48,8 +39,7 @@ form {
   display: inline-block;
 }
 
-button:hover{
-  background: #1f30b5;
-  transition:0.3;
+button:hover {
+  background: burlywood;
+  transition: 0.3s;
 }
-  
